@@ -44,7 +44,7 @@
                         <a class="nav-link" href="#events">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="games-library.html">Games</a>
+                        <a class="nav-link active" aria-current="page" href="game-library.html">Games</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#contact">Contact</a>
@@ -252,6 +252,77 @@
             </div>
         </section>
 
+        <!-- Reserve a game section -->
+        <section id="events" class="container section col-12 col-md-8">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="display-6 text-center">RESERVE A GAME</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p>
+                        Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and
+                        let
+                        the
+                        adventure begin! Fill out your details and preferred game below, and we'll have it set
+                        aside
+                        for
+                        you when you arrive.
+                    </p>
+                </div>
+            </div>
+
+
+            <form action="success.html" method="get">
+                <div class="row">
+                    <div class="col-12 col-xl-4 mb-3">
+                        <label for="full-name" class="form-label">Full name</label>
+                        <input type="text" class="form-control" id="full-name" required>
+                    </div>
+
+                    <div class="col-12 col-xl-4 mb-3">
+                        <label for="phone-number" class="form-label">Phone number</label>
+                        <input type="number" class="form-control" id="phone-number" required>
+                    </div>
+
+                    <div class="col-12 col-xl-4 mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-xl-8 mb-3">
+                        <label for="select-game" class="form-label">Select game</label>
+                        <select class="form-select" id="select-game" name="select-game" value="" required>
+                            <option value="" disabled selected>Select game</option>
+                            <option value="Galaxy Pioneers">Galaxy Pioneers</option>
+                            <option value="Mystic Woods">Mystic Woods</option>
+                            <option value="Captain's Gambit">Captain's Gambit</option>
+                            <option value="Critter Quest">Critter Quest</option>
+                            <option value="Setters of Catan">Setters of Catan</option>
+                            <option value="Monopoly">Monopoly</option>
+                            <option value="Exploding Kittens">Exploding Kittens</option>
+                            <option value="Cluedo">Cluedo</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12 col-xl-4 mb-3">
+                        <label for="requested-date" class="form-label">Requested date</label>
+                        <input type="date" class="form-control" id="requested-date" aria-describedby="emailHelp"
+                            required>
+                    </div>
+                </div>
+                <div class="mb-3 text-end">
+                    <button type="submit" class="btn custom-button-outline">Submit</button>
+                </div>
+            </form>
+
+
+
+
+        </section>
 
     </main>
 
