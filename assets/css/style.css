@@ -99,6 +99,19 @@ h2 {
     border: none;
 }
 
+/* Events section */
+.table-hover:hover {
+    border: 2px solid white;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.discount-text {
+    background-color: #416a8e;
+    color: white;
+    max-width: 300px;
+}
+
 /* Footer / contact section */
 #contact {
     background-color: var(--primary-color);
